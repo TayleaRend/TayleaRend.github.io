@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+             <!-- Favicon - use favicon.io to create your icons and save them into a favicon folder -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+          <!-- Bootstrap core CSS -->
+      <!-- IDEA: this is where Boostrap's CSS is loaded in via their CDN - you don't need to include the actual files in your site folder, but they are usful to refer to-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+      <!-- Your custom styles for this template - must be after Bootstrap's link element to over ride it (load after) as needed -->
+      <link href="css/custom.css" rel="stylesheet">
+      <title>Taylea Rend</title>
+  </head>
+
+<body>
+       <!-- NAVBAR - Start - Sourced: https://getbootstrap.com/docs/5.3/components/navbar/  -->
+   <nav id="navbar-example2" class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html" target="_self">About Me</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="resume.html" target="_self">Resume</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="teachingphilosophy.html" target="_self">Teaching Philosophy</a></li>
+            <li  class="nav-item">
+            <a class="nav-link" href="contactme.html" target="_self">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+<!-- NAVBAR - End -->
+  <header>
+  <h1>Contact Me 📞</h1>
+</header>
+
+
+  <!-- Contact Form - Start -->
+<div class="col-lg-6">
+    <div class="card shadow-sm">
+    <div class="card-body">
+    <h5 class="card-title mb-3">Send me a message✉️</h5>
+
+<form>
+    <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" required>
+    </div>
+    
+    <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" required>
+     </div>
+    
+     <div class="mb-3">
+     <label for="message" class="form-label">Message</label>
+     <textarea class="form-control" id="message" rows="4" required></textarea>
+     </div>
+     <button type="submit" class="btn btn-warning">Send</button>
+     </form>
+  </div>
+  </div>
+
+  <!-- Google Map & Social Media -->
+  <div class="col-lg-6">
+    <h1>My Location📍</h1>
+    <div class="ratio ratio-16x9 rounded shadow-sm">
+    <iframe src="https://www.google.com/maps?q=Empire+State+Building,+New+York,+NY&output=embed" allowfullscreen loading="lazy" title="Google Map" style="border:0;">
+    </iframe>
+    </div>
+  </div>
+
+</body>
+</html>
